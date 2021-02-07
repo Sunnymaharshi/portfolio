@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars}  from '@fortawesome/free-solid-svg-icons';
 export const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+        <nav className="navbar navbar-expand-lg navbar-light ">
             <div className="container" >
 
                 <a className="navbar-brand" href="#"><img className="logo" src= { dam_p } alt="my image" /></a>
