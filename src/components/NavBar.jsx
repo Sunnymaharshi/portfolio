@@ -14,8 +14,10 @@ const NavBar = () => {
   }, []);
 
   return (
-    <header className={`navbar ${scrolled ? "scrolled" : "not-scrolled"}`}>
-      <div className="flex">
+    <header
+      className={`navbar p-[10px] ${scrolled ? "scrolled" : "not-scrolled"}`}
+    >
+      <div className="flex ml-[10px]">
         <div className="flex gap-[20px] items-center">
           <a href="#hero" className="logo">
             Maharshi Reddy
@@ -33,7 +35,7 @@ const NavBar = () => {
           ))}
         </div>
       </div>
-      <nav className="desktop w-full flex justify-center">
+      <nav className="desktop w-full flex justify-center mt-3">
         <ul>
           {navLinks.map(({ link, name }) => {
             return (
